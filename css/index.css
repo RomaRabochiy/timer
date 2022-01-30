@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+button {
+  background: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: grey;
+}
+.time {
+  font-size: 25px;
+  text-align: center;
+}
